@@ -49,6 +49,8 @@ Route::get('productos', function () {
 });
 
 
+
+
 Route::get('papeleria', function () {
     return view('inventario.papeleria',array('id'=>'1','nombre'=>'Cuadernos','precio'=>'30000'));
 });
