@@ -30,8 +30,11 @@ Route::get('clientes', function () {
 
 
 Route::get('clientes/preferenciales', function () {
+
     return view('clientes.preferenciales.favoritos');
 });
+
+
 
 
 Route::get('ofertas', function () {
@@ -48,6 +51,7 @@ Route::get('servicios/{descripcion}', function ($descripcion) {
 
 
 });
+
 
 
 /*
