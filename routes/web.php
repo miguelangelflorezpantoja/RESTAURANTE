@@ -37,13 +37,22 @@ Route::get('clientes/preferenciales', function () {
 
 
 
+
+
 Route::get('ofertas', function () {
     return view('promociones');
 });
 
 Route::get('productos', function () {
-    return view('productos');
+    return view('inventario.productos');
+
 });
+
+
+Route::get('papeleria', function () {
+    return view('inventario.papeleria');
+});
+
 Route::get('servicios/{descripcion}', function ($descripcion) {
     return "Descripcion : {$descripcion}";
 
