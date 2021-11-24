@@ -73,3 +73,6 @@ Route::get('productos/{id}/{descripcion?}', function ($id,$descripcion  = null) 
         return "producto con id: {$id}, sin descripcion";
     }
 });
+
+
+
